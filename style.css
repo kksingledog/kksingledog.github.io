@@ -1,0 +1,131 @@
+/*初始化設定*/
+html { 
+    line-height: 1.15; /* Correct the line height in all browsers */ -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. */ 
+}
+*{ margin: 0; padding: 0; } 
+body { 
+    margin: 0; 
+} 
+a { 
+    background-color: transparent; /* Remove the gray background on active links in IE 10. */ 
+}
+img { 
+     border-style: none; /* Remove the border on images inside links in IE 10. */ 
+}
+/*初始化設定*/
+h1,h2,h3,h4,h5,h6,p,a,span,li,label{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.nav-item{
+    display: inline-block;
+    position: relative;
+    border-radius: 40px;
+    padding: 0 10pt;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.33;
+    
+}
+.nav-item:hover{
+    background-color: #0a0a0a;
+    padding: auto;
+    border-radius: 50px;
+    border: none;
+    visibility: visible;
+}
+.nav-item:hover #navbarDropdownMenuLink{
+    color: white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.sub{
+    display: flex;
+    align-items: center; 
+}
+section #imgcarousel{
+    max-width: 1100pt;
+}
+
+.carousel-item a{
+    display: none;
+    background-color: dimgrey;
+    border: dimgrey;
+}
+.carousel:hover img{
+    filter: brightness(50%);
+}
+.carousel:hover a{
+    display: block;
+}
+.carousel:hover h5{
+    display: none;
+}
+.carousel a:hover{
+    opacity: 0.8;
+    background-color: dimgrey;
+    border: dimgrey;
+}
+#second .row p{
+    margin-top: 31pt;
+    margin-bottom: 32pt;
+    font-size: 26pt;
+}
+#second img{
+    border-radius: 100%;
+    width: 200pt;
+    vertical-align: middle;
+    margin-bottom: 27pt;
+}
+#second h1{
+    font-size: 15pt;
+    text-align:left
+}
+#second h2{
+    font-size: 13pt;
+    text-align:center
+}
+#third {
+    background-color: rgb(248, 248, 248);
+    padding: 25pt 0;
+}
+
+/* Check outline *{
+    outline: solid #f00 1px !important;
+    background: #000 !important;
+    color: #fff !important;
+}*/
+.row{
+    margin: 0px;
+}
+
+#third img{
+    border-radius:20pt;
+    height: 520pt;
+    width: 372pt;
+    box-shadow: 0 0 5px 3px rgb(149 139 130);
+}
+
+#second {
+    
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: scroll;
+}
+#third .accordion-item{
+    border-color: rgb(248, 248, 248);
+    border-width:50px;
+}
+#third i{
+    -webkit-filter: drop-shadow(10px 10px 25px rgb(149 139 130));
+    margin-right: 20px;
+}
+#third button{
+    box-shadow: 0 0 5px 3px rgb(255 255 255);
+}
+#third p{
+    padding-bottom: 30px;
+    border-bottom: solid 4px #3a2c8d;
+    margin: 0 0 40px 0;
+}
